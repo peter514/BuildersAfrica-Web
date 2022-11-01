@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from "react";
 import Logo from "../../assets/logob.png";
-import { Link } from "react-scroll";
+import { Link as LinkS} from "react-scroll";
 import { FaBars } from "react-icons/fa";
+import { Link as LinkR} from "react-router-dom";
 import { MdClose } from "react-icons/md";
 
 function TopNavBar() {
@@ -27,7 +28,7 @@ function TopNavBar() {
         <div className="hidden md:flex pt-4 font-bold">
           <ul className="flex flex-row gap-14 ">
             <li className="hover:text-green-700">
-              <Link
+              <LinkS
                 activeClass="active"
                 to="home"
                 spy={true}
@@ -35,10 +36,10 @@ function TopNavBar() {
                 offset={-80}
               >
                 Home
-              </Link>
+              </LinkS>
             </li>
             <li className="hover:text-green-700">
-              <Link
+              <LinkS
                 activeClass="active"
                 to="services"
                 spy={true}
@@ -46,10 +47,10 @@ function TopNavBar() {
                 offset={-80}
               >
                 Services
-              </Link>
+              </LinkS>
             </li>
             <li className=" hover:text-green-700">
-              <Link
+              <LinkS
                 activeClass="active"
                 to="projects"
                 spy={true}
@@ -57,11 +58,11 @@ function TopNavBar() {
                 offset={-80}
               >
                 Products
-              </Link>
+              </LinkS>
             </li>
 
             <li className="hover:text-green-700">
-              <Link
+              <LinkS
                 activeClass="active"
                 to="contact"
                 spy={true}
@@ -69,22 +70,22 @@ function TopNavBar() {
                 offset={-80}
               >
                 Contact
-              </Link>
+              </LinkS>
             </li>
           </ul>
         </div>
         <div className=" pt-4">
           <ul className="flex flex-row gap-3 pr-4">
             <li className="font-bold hover:underline  hover: ">
-              <a href="/dashboard">Log In</a>
+              <LinkR to="/dashboard">Log In</LinkR>
             </li>
             <li className="">
-              <a
-                href="/"
+              <LinkR
+                to="/"
                 className="rounded-md bg-green-700 px-4 py-1 text-white"
               >
                 Sign Up
-              </a>
+              </LinkR>
             </li>
             <li className=" px-2 md:hidden">
                 {
@@ -104,7 +105,7 @@ function TopNavBar() {
         `}>
         <ul className="flex flex-col gap-8 text-center ">
           <li className="hover:text-green-700  pt-3">
-            <Link
+            <LinkS
               activeClass="active"
               to="home"
               spy={true}
@@ -113,10 +114,10 @@ function TopNavBar() {
               className="cursor-pointer"
             >
               Home
-            </Link>
+            </LinkS>
           </li>
           <li className="hover:text-green-700">
-            <Link
+            <LinkS
               activeClass="active"
               to="services"
               spy={true}
@@ -124,10 +125,10 @@ function TopNavBar() {
               offset={-80}
             >
               Services
-            </Link>
+            </LinkS>
           </li>
           <li className=" hover:text-green-700">
-            <Link
+            <LinkS
               activeClass="active"
               to="products"
               spy={true}
@@ -135,11 +136,11 @@ function TopNavBar() {
               offset={-80}
             >
               Products
-            </Link>
+            </LinkS>
           </li>
 
           <li className="hover:text-green-700">
-            <Link
+            <LinkS
               activeClass="active"
               to="contact"
               spy={true}
@@ -147,7 +148,7 @@ function TopNavBar() {
               offset={-80}
             >
               Contact
-            </Link>
+            </LinkS>
           </li>
         </ul>
       </div>
