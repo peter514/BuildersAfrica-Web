@@ -52,7 +52,7 @@ function TopNavBar() {
             <li className=" hover:text-green-700">
               <LinkS
                 activeClass="active"
-                to="projects"
+                to="products"
                 spy={true}
                 smooth={true}
                 offset={-80}

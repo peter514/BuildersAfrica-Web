@@ -1,8 +1,14 @@
 import React from 'react'
+import Products from '../../components/sections/Products'
+import Services from '../../components/sections/Services'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className=''>
+      <Services/>
+      <Products/>
+
+    </div>
   )
 }
 

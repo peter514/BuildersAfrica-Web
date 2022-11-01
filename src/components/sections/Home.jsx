@@ -35,7 +35,7 @@ function Home() {
             
           }
                     typeSpeed={150}
-                    backSpeed={100}
+                    backSpeed={150}
                     loop
            >
             
