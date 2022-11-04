@@ -9,9 +9,8 @@ import PostJob from './pages/Dashboard/PostJob'
 import Supplier from './pages/Dashboard/Supplier'
 import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
-import RegisterBuyer from './pages/RegisterBuyer'
 import RegisterPage from './pages/RegisterPage'
-import RegisterSeller from './pages/RegisterSeller'
+
 
 
 function App() {
@@ -27,21 +26,14 @@ function App() {
         element={<LandingPage/>}
         />
         <Route  
-        path="login-page"
+        path="login"
         element={<LoginPage/>}
         />
         <Route  
-        path="register-page"
+        path="register"
         element={<RegisterPage/>}
         />
-         <Route  
-        path="register-buyer"
-        element={<RegisterBuyer/>}
-        />
-         <Route  
-        path="register-seller"
-        element={<RegisterSeller/>}
-        />
+        
 
         {/* dashboard Routes */}
         <Route path="dashboard" element={<BuyerDashboard/>} >

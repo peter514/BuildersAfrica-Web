@@ -77,11 +77,11 @@ function TopNavBar() {
         <div className=" pt-4">
           <ul className="flex flex-row gap-3 pr-4">
             <li className="font-bold hover:underline  hover: ">
-              <LinkR to="/dashboard">Log In</LinkR>
+              <LinkR to="login">Log In</LinkR>
             </li>
             <li className="">
               <LinkR
-                to="/"
+                to="register"
                 className="rounded-md bg-green-700 px-4 py-1 text-white"
               >
                 Sign Up
