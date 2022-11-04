@@ -54,17 +54,7 @@ function BuyerDashboard() {
           >
             Professional Service
           </Link>
-          <ul
-            className={
-              professionalServices ? 'flex flex-col text-[25px]' : 'hidden'
-            }
-          >
-            <li className="pl-7 hover:bg-tertiary">Project Managers</li>
-            <li className="pl-7 hover:bg-tertiary">Engineering</li>
-            <li className="pl-7 hover:bg-tertiary">Quantity Survayers</li>
-            <li className="pl-7 hover:bg-tertiary">Building Contractors</li>
-            <li className="pl-7 hover:bg-tertiary">SubContractors</li>
-          </ul>
+          
           <Link to="/dashboard/suppliers" className="p-2 hover:bg-tertiary">
             Supplier
           </Link>

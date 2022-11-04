@@ -58,7 +58,11 @@ function LoginPage() {
             </div>
              {/* button div */}
             <div className= {`flex flex-col items-center` }>
-              <button className='bg-primary p-3 text-white font-bold md:w-[200px]'> Login</button>
+              <Link to ='/dashboard'>
+              <button className='bg-primary p-3 text-white font-bold md:w-[200px]'>
+                 Login
+                 </button>
+                 </Link>
 
             </div>   
           
