@@ -86,10 +86,10 @@ function RegisterPage() {
             }}
             >
               <span className='text-2xl p-4'><MdOutlineDesignServices size={80} /></span>
-              <button className='font-bold p-2 rounded-sm text-center bg-primary text-white '>FOR BUYER </button>
-              <p>I have requirements for building & furnishing materials.</p>
-              <p>I have requirements for interior design/ architectural design/ glass curtain walls / steel structure design services.</p>
-              <p>I have a general building work looking for quality service providers</p>
+              <button className='font-bold p-2 rounded-sm text-center bg-primary text-white '>FOR SERVICE PROVIDER </button>
+              <p>I want to find the latest desig cases</p>
+              <p>I can provide interior design/ architectural design/ glass curtain walls / steel structure design services.</p>
+              <p>I can supply building & furnishing materials</p>
 
             </div>
             </LinkS>
